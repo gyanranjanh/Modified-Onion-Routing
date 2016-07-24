@@ -1,0 +1,51 @@
+autoscan: warning: missing AC_CHECK_FUNCS([bzero]) wanted by: 
+	src/or_util.c:189
+	src/or_test.c:30
+	src/or_test.c:31
+autoscan: warning: missing AC_CHECK_FUNCS([gethostbyname]) wanted by: 
+	src/or_test.c:39
+autoscan: warning: missing AC_CHECK_FUNCS([select]) wanted by: 
+	src/or_util.c:307
+autoscan: warning: missing AC_CHECK_FUNCS([socket]) wanted by: 
+	src/or_util.c:146
+	src/or_test.c:22
+autoscan: warning: missing AC_CHECK_FUNCS([strerror]) wanted by: 
+	src/or_util.c:222
+	src/or_util.c:237
+	src/or_util.c:272
+autoscan: warning: missing AC_CHECK_FUNCS([strstr]) wanted by: 
+	src/or_main.c:52
+autoscan: warning: missing AC_CHECK_HEADERS([netdb.h]) wanted by: 
+	src/or_types.h:11
+autoscan: warning: missing AC_CHECK_HEADERS([netinet/in.h]) wanted by: 
+	src/or_types.h:14
+autoscan: warning: missing AC_CHECK_HEADERS([stddef.h]) wanted by: 
+	src/or_types.h:4
+autoscan: warning: missing AC_CHECK_HEADERS([stdint.h]) wanted by: 
+	src/or_types.h:5
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	src/or_types.h:9
+autoscan: warning: missing AC_CHECK_HEADERS([string.h]) wanted by: 
+	src/or_types.h:7
+autoscan: warning: missing AC_CHECK_HEADERS([sys/socket.h]) wanted by: 
+	src/or_types.h:13
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/or_util.c:390
+autoscan: warning: missing AC_TYPE_INT16_T wanted by: 
+	src/or_types.h:34
+autoscan: warning: missing AC_TYPE_INT32_T wanted by: 
+	src/or_types.h:35
+autoscan: warning: missing AC_TYPE_INT64_T wanted by: 
+	src/or_types.h:43
+autoscan: warning: missing AC_TYPE_INT8_T wanted by: 
+	src/or_types.h:33
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	src/or_types.h:24
+autoscan: warning: missing AC_TYPE_UINT16_T wanted by: 
+	src/or_types.h:29
+autoscan: warning: missing AC_TYPE_UINT32_T wanted by: 
+	src/or_types.h:30
+autoscan: warning: missing AC_TYPE_UINT64_T wanted by: 
+	src/or_types.h:42
+autoscan: warning: missing AC_TYPE_UINT8_T wanted by: 
+	src/or_types.h:28

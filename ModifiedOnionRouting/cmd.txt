@@ -1,0 +1,18 @@
+src/m_onion_routing role=sender port=3000 logfile=/home/gyan/Desktop/crypto-log/or_snd_log.txt nwkLayoutFile=/home/gyan/OnionRouting/NeighborRoutingTable.txt
+
+src/m_onion_routing role=router port=3001 logfile=/home/gyan/Desktop/crypto-log/or_router1_log.txt nwkLayoutFile=/home/gyan/OnionRouting/NeighborRoutingTable.txt
+
+src/m_onion_routing role=router port=3002 logfile=/home/gyan/Desktop/crypto-log/or_router2_log.txt nwkLayoutFile=/home/gyan/OnionRouting/NeighborRoutingTable.txt
+
+src/m_onion_routing role=receiver port=3003 logfile=/home/gyan/Desktop/crypto-log/or_rcvr_log.txt nwkLayoutFile=/home/gyan/OnionRouting/NeighborRoutingTable.txt
+
+
+ gcc -O2 -Wall -o test test.c
+./test 
+
+
+//or_get_sha256_mac(data, dataLen, &mac);
+
+printf("Test1\n");
+sleep(1);
+
